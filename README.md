@@ -1,6 +1,6 @@
 # VoiceNot
 Un modulador de voz el cual busca ser una opcion gratuita o muy asequible que busca competir algun dia con programas mas profesionales.
-# 🎤 Voice Modifier Pro - Documentación Completa
+# 🎤VoiceNot - Documentación Completa
 
 ## 📋 Índice Rápido
 1. [Instalación](#instalación)
@@ -318,14 +318,14 @@ Si necesitas PyAudio:
 1. **Instala VB-Audio Virtual Cable** (gratis)
    - Descarga: https://vb-audio.com/Cable/
 
-2. **En Voice Modifier Pro:**
+2. **En VoiceNot:**
    - Entrada: Tu micrófono real
    - Salida: CABLE Input (VB-Audio)
 
 3. **En Discord/Zoom:**
    - Micrófono: CABLE Output (VB-Audio)
 
-4. **Inicia procesamiento** en Voice Modifier Pro
+4. **Inicia procesamiento** en VoiceNot
 
 5. **Habla** → Tu voz modificada se escuchará en Discord/Zoom
 
