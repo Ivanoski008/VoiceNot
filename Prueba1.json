@@ -1,0 +1,96 @@
+{
+  "nodes": [
+    {
+      "id": "d9a1abe6",
+      "type": "input",
+      "x": 100,
+      "y": 200,
+      "params": {},
+      "connections": [
+        "5f35ea5d"
+      ]
+    },
+    {
+      "id": "fae4f274",
+      "type": "output",
+      "x": 865,
+      "y": 223,
+      "params": {},
+      "connections": []
+    },
+    {
+      "id": "5f35ea5d",
+      "type": "equalizer",
+      "x": 282,
+      "y": 199,
+      "params": {
+        "low": 6.0,
+        "mid": 0,
+        "high": 0
+      },
+      "connections": [
+        "4734a64a"
+      ]
+    },
+    {
+      "id": "4734a64a",
+      "type": "echo",
+      "x": 537,
+      "y": 210,
+      "params": {
+        "delay": 0.52,
+        "feedback": 0.27,
+        "mix": 0.62
+      },
+      "connections": [
+        "fae4f274"
+      ]
+    },
+    {
+      "id": "f18e5bd2",
+      "type": "pitch",
+      "x": 295,
+      "y": 403,
+      "params": {
+        "semitones": 0,
+        "fine": 0
+      },
+      "connections": []
+    },
+    {
+      "id": "a66f999c",
+      "type": "distortion",
+      "x": 297,
+      "y": 558,
+      "params": {
+        "drive": 0.5,
+        "tone": 0.5,
+        "mix": 0.5
+      },
+      "connections": []
+    },
+    {
+      "id": "7a1eacdd",
+      "type": "compressor",
+      "x": 300,
+      "y": 315,
+      "params": {
+        "threshold": -20,
+        "ratio": 4,
+        "attack": 0.01,
+        "release": 0.1
+      },
+      "connections": []
+    },
+    {
+      "id": "4ac2e1d0",
+      "type": "gain",
+      "x": 293,
+      "y": 481,
+      "params": {
+        "volume": 1.0
+      },
+      "connections": []
+    }
+  ]
+}
